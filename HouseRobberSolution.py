@@ -12,4 +12,5 @@ class Solution:
         else:
             memoization[i]=max(nums[i]+helper(i-2), helper(i-1))    #Returns max value between 1.The money in the current house+the max value of money at the house 2 steps back or 2.The max amount of money at the house 1 step back
             return memoization[i]
-#Watched House Robber by Greg Hogg
+
+#Credit to Greg Hogg
